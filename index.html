@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cuenta regresiva</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <main class="container">
+      <h1><input id="title" value="" disabled/></h1>
+      <div id="time-banner">
+        <div class="time-box">
+          <label>Días</label>
+          <span id="d">-</span>
+        </div>
+        <div class="time-box">
+          <label>Horas</label>
+          <span id="h">-</span>
+        </div>
+        <div class="time-box">
+          <label>Minutos</label>
+          <span id="m">-</span>
+        </div>
+        <div class="time-box">
+          <label>Segundos</label>
+          <span id="s">-</span>
+        </div>
+      </div>
+      <textarea id="info" disabled></textarea>
+      <a id="modify">Modificar</a>
+      <div id="settings">
+        <div class="input">
+          <label for="date">Fecha</label>
+          <input type="date" id="date">
+        </div>
+        <div class="input">
+          <label for="time">Hora</label>
+          <input type="time" id="time">
+        </div>
+        <div class="input">
+          <button id="start">
+            Iniciar contador
+          </button>
+        </div>
+      </div>
+    </main>
+    <script src="code.js" charset="utf-8"></script>
+  </body>
+</html>
